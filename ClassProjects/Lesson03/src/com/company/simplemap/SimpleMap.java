@@ -7,7 +7,7 @@ public class SimpleMap<K, V> implements Map<K, V> {
 
 
     public SimpleMap() {
-        this.entries = (Entry<K, V>[]) new Object[SIZE];
+        this.entries = new Entry[SIZE];
         this.n = 0;
     }
 
@@ -26,7 +26,7 @@ public class SimpleMap<K, V> implements Map<K, V> {
     public V get(K key) {
         for (int i = 0; i < n; i++) {
             if (entries[i].key.equals(key)) {
-                return entries[i].value;
+                return (V)entries[i].value;
             }
         }
         return null;
