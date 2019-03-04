@@ -12,3 +12,11 @@ public class Main07Scanner {
         System.out.println(sc.nextLine());
     }
 }
+
+
+
+
+
+
+
+

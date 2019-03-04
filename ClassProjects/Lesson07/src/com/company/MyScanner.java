@@ -5,6 +5,10 @@ import java.io.InputStream;
 public class MyScanner {
     private InputStream is;
 
+    public MyScanner(InputStream is) {
+        this.is = is;
+    }
+
     public int nextInt() {
         return 0;
     }
