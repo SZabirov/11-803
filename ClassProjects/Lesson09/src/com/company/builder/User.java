@@ -1,4 +1,4 @@
-package com.company;
+package com.company.builder;
 
 public class User {
     private Long id;
@@ -47,8 +47,8 @@ public class User {
     
     
     
-    
-    
+
+
     public User(Long id, String firstname, String secondname, String address, String phoneNumber) {
         this.id = id;
         this.firstname = firstname;
