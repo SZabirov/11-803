@@ -26,3 +26,11 @@
 	List<SimpleStudent> list = SuperBestAwesomeFramework.getManyWithCons(SimpleStudent.class, 100, "John", 40);
 	```
 
+# Homework 14
+
+Сделать задачу с thread'ами
+
+# Homework 16
+
+Написать не менее 7 полезных разных тестов на вашу собственную реализацию LinkedList'а
+
