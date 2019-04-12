@@ -12,12 +12,12 @@ public class Consumer extends Thread {
         while (true) {
             synchronized (product) {
                 while (!product.isProduced()) {
+                    System.out.println("Еще не готов!");
                     try {
                         product.wait();
                     } catch (InterruptedException e) {
                         throw new IllegalStateException(e);
                     }
-                    System.out.println("Еще не готов!");
                 }
                 product.consume();
                 System.out.println("Потребил");
