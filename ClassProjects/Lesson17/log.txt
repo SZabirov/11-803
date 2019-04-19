@@ -1,0 +1,10 @@
+INFO 2019-04-19T15:16:13.038 File was created
+INFO 2019-04-19T15:16:13.051 Text from textProviders get
+INFO 2019-04-19T15:16:13.052 intersectionsCount = 2
+INFO 2019-04-19T15:16:13.056 Text from textProviders get
+INFO 2019-04-19T15:16:13.056 intersectionsCount = 2
+INFO 2019-04-19T15:16:45.620 File was created
+INFO 2019-04-19T15:16:45.636 Text from textProviders get
+INFO 2019-04-19T15:16:45.636 intersectionsCount = 2
+INFO 2019-04-19T15:16:45.640 Text from textProviders get
+INFO 2019-04-19T15:16:45.640 intersectionsCount = 2
